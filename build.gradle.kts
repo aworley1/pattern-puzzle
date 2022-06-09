@@ -32,6 +32,7 @@ kotlin {
         }
         val jsMain by getting {
             dependencies {
+                implementation(npm("pdf-lib", "1.17.1"))
             }
         }
     }
